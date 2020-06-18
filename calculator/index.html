@@ -2,16 +2,85 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>calculator</title>
+    <title> calculator </title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- the action is where the form needs to get rendered.. it needs to get posted at root not in index.html -->
-    <form class="" action="/" method="post">
-      <!-- name refers to the variable name -->
-      <input type="text" name="number1" placeholder="number1">
-      <input type="text" name="number2" placeholder="number2">
-      <input type="submit" name="" value="ADD">
-    </form>
+
+    <table class="table">
+
+       <tr>
+        <td><h4 class="heading">calculator</h4></td>
+       </tr>
+
+        <tr>
+          <td>  <input type="text" name="" value="" placeholder="0" id="input" readonly="readonly"></td>
+        </tr>
+        <tr>
+          <td>  <input type="text" name="" value="" placeholder="Result" id="result" </td>
+        </tr>
+
+     <tr>
+       <td>
+         <!-- &#247 = '/' -->
+         <!-- &#8592 = '<-' -->
+         <input type="button" name="" value="CE" onclick="clear_all()">
+         <input type="button" name="" value="&#247" onclick="get_operand('/')">
+         <input type="button" name="" value="x" onclick="get_operand('x')">
+         <input type="button" name="" value="Sqr" onclick="square()">
+
+       </td>
+     </tr>
+
+     <tr>
+       <td>
+         <input type="button" name="" value="1" onclick="get_number(1)">
+         <input type="button" name="" value="2" onclick="get_number(2)">
+         <input type="button" name="" value="3" onclick="get_number(3)">
+         <input type="button" name="" value="+" onclick="get_operand('+')">
+       </td>
+     </tr>
+
+     <tr>
+       <td>
+         <input type="button" name="" value="4" onclick="get_number(4)">
+         <input type="button" name="" value="5" onclick="get_number(5)">
+         <input type="button" name="" value="6" onclick="get_number(6)">
+         <input type="button" name="" value="-" onclick="get_operand('-')">
+       </td>
+     </tr>
+
+     <tr>
+       <td>
+         <input type="button" name="" value="7" onclick="get_number(7)">
+         <input type="button" name="" value="8" onclick="get_number(8)">
+         <input type="button" name="" value="9" onclick="get_number(9)">
+          <input type="button" name="" value="%" onclick="get_operand('%')">
+       </td>
+     </tr>
+
+     <tr>
+       <td>
+         <input type="button" name="" value="0" onclick="get_number(0)">
+         <input type="button" name="" value="Root" onclick="root()">
+
+         <input type="button" name="" value="(" onclick="get_operand('(')">
+          <input type="button" name="" value=")" onclick="get_operand(')')">
+
+       </td>
+     </tr>
+
+    <tr>
+        <td>
+              <input type="button" name="" value="=" id="equals" onclick="compute()">
+              <input type="button" name="" value="<--" onclick="back_space()">
+       </td>
+    </tr>
+
+
+    </table>
+<script type="text/javascript" src="index.js"></script>
+
 
   </body>
 </html>
