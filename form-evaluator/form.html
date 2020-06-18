@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form validation</title>
+    <style media="screen">
+      .div
+      {
+        margin:30px 0;
+      }
+    </style>
+  </head>
+  <body style="text-align:center;margin-bottom:30px;">
+     <h1>FORM VALIDATOR</h1>
+     <br><br><br><br>
+    <form class="" action="form.html" method="post" id="form-validation">
+      <span>
+      <input type="radio" name="salutations" value="Mr." id="radio-1">
+      <label for="">Mr.</label>
+      <input type="radio" name="salutations" value="Mrs." id="radio-2">
+      <label for="">Mrs.</label>
+      <input type="radio" name="salutations" value="Dr." id="radio-3">
+      <label for="">Dr.</label>
+      <input type="radio" name="salutations" value="Miss" id="radio-4">
+      <label for="">Miss.</label>
+      <label id="radio-error"></label>
+      <input id="name"type="text" name="" value="" placeholder="enter your name" class="name"style="margin-left:30px;">
+      <label id="name-error"></label>
+      </span>
+      <div class="div">
+      <label for="Username-choice">Username : </label>
+      <input id="username" list="username-list" name="Username-choice" />
+      <label id="username-error"></label>
+      <datalist id="username-list">
+        <option class="op"value="dinesh">
+        <option class="op"value="ganesh">
+      </datalist>
+      </div>
+      <div class="div">
+        <label for="">Password : </label>
+        <input id="password"type="password" name="" value="">
+        <label id="password-error"></label>
+      </div>
+
+      <div class="div">
+        <label for="">Email : </label>
+        <input id="email" type="email" name="" value="">
+        <label id="email-error"></label>
+      </div>
+      <div class="div">
+        <label for="">DOB : </label>
+        <input id="date"type="date" name="" value="">
+        <label id="date-error"></label>
+      </div>
+      <div class="div">
+        <label for="">Upload your photo : </label>
+        <input id="image"type="file" name="" value="">
+        <label id="image-error"></label>
+      </div>
+      <div class="div">
+        <label for="">Languages known : </label>
+        <span>
+          <input id="checkbox-1"type="checkbox" name="" value="">
+          <label for="">English</label>
+        </span>
+        <span>
+          <input id="checkbox-2"type="checkbox" name="" value="">
+          <label for="">Tamil</label>
+        </span>
+        <span>
+          <input id="checkbox-3"type="checkbox" name="" value="">
+          <label for="">French</label>
+        </span>
+        <span>
+          <input id="checkbox-4"type="checkbox" name="" value="">
+          <label for="">Others</label>
+        </span>
+        <label id="checkbox-error"></label>
+      </div>
+     <div class="div">
+       <label for=""> Additional Expertise : </label>
+        <textarea id="textarea"name="name" rows="5" cols="50"></textarea>
+        <label id="textarea-error"></label>
+     </div>
+     <div class="div">
+       <span style="margin-right:40px;"><input type="submit" name="" value="submit"id="submit"></span>
+       <span><input type="reset" name="" value="clear"id="reset"></span>
+     </div>
+    </form>
+    <script type="text/javascript" src="form.js">  </script>
+  </body>
+</html>

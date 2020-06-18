@@ -1,0 +1,152 @@
+body
+{
+  margin:0;
+}
+h1
+{
+    font-family: 'Sacramento', sans-serif,serif;
+    font-size: 4rem;
+    color:#e26241;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 190px;
+    padding-top: 30px;
+}
+.images{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.tv-image{
+  padding-right: 10%;
+
+}
+.tv-image:hover{
+  color: #64ccda;
+}
+.phone-image:hover{
+  color: #64ccda;
+}
+.text
+{
+  font-family: 'Sacramento', sans-serif,serif;
+  font-size: 2.5rem;
+  color:#e26241;
+  font-weight: bold;
+  text-align: center;
+}
+.lol
+{
+  margin-bottom: 0;
+  margin-top:0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 220px;
+  font-size: 1.5rem;
+  color:#e26241;
+}
+.h2
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Montserrat',serif;
+  font-size:1.5rem;
+
+}
+
+.div1
+{
+  text-align: left;
+  background-color: #ffd369;
+  width:100%;
+  margin-bottom: 0;
+
+  }
+
+.div2
+{
+  background-color: #e26241;
+}
+
+.div3
+{
+  background-color: #ffd369;
+}
+.lol1
+{
+  margin-bottom: 0;
+  margin-top:0;
+  padding-left: 50px;
+  color: black;
+  padding-bottom: 40px;
+}
+.lol1:hover
+{
+  color:blue;
+}
+a
+{
+  text-decoration: none;
+}
+.tel
+{
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+.mob
+{
+  padding-top:30px;
+}
+.fox
+{
+  padding-left: 260px;
+}
+.nav
+{
+  position:relative;
+  bottom:270px;
+  left:900px;
+  font-family: 'Montserrat',serif;
+  color:blue;
+}
+.form
+{
+  position:relative;
+  bottom:170px;
+  left:800px;
+  font-family: 'Montserrat',serif;
+  color:blue;
+}
+.bottom-container
+{
+  text-align: center;
+  background-color:#e26241;
+  height:150px;
+  margin-top:0px;
+
+}
+.footer-link1
+{
+  position:relative;
+  right:25px;
+  top:50px;
+}
+
+.footer-link2
+{
+  position:relative;
+  top:50px;
+}
+
+.footer-link3
+{
+  position:relative;
+  top:50px;
+  left:25px;
+}
+.p7
+  {
+    position:relative;
+    top:100px;
+  }

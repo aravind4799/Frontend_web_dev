@@ -1,0 +1,178 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+#title
+{
+  background-color: #ff4c68;
+  color:#fff;
+
+}
+
+.container-fluid
+{
+  padding:3% 15%;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+.nav-link
+{
+  font-size:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dog
+{
+ width: 60%;
+ transform: rotate(25deg);
+ position:relative;
+ top:30%;
+}
+#features
+{
+
+  padding-top: 10%;
+  padding-bottom:10%;
+
+  background-color: #fff;
+    z-index:+1;
+  position: relative;
+
+}
+.this
+{
+  text-align: center;
+}
+.pic
+{
+  margin-bottom:5%;
+  color:#ef8172;
+}
+.h3
+{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+.pic:hover
+{
+  color:  #ff4c68;
+}
+.p1
+{
+  padding:0 20% 10% 20%;
+  font-style: 'Montserrat-light',italic;
+  color:#5f6769;
+}
+#testimonials
+{
+  background-color: #ef8172;
+  text-align: center;
+  color:#fff;
+
+}
+#press{
+    background-color: #ef8172;
+
+}
+.test
+{
+  padding-top: 3.5rem;
+  padding-bottom:1.5rem;
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+
+}
+.dog1
+{
+  border-radius: 100%;
+  height:8.5rem;
+  margin-left: 12%;
+
+}
+.img
+{
+  width: 15%;
+  margin:0 7% 2% 7%;
+
+}
+.carousel-item
+{
+    padding:7% 15%;
+}
+
+#pricing
+{
+  text-align: center;
+  padding:100px;
+}
+.for_pad
+{
+padding:0;
+}
+
+@media (max-width :800px)  {
+
+  .dog
+  {
+    position: static;
+    transform: rotate(0);
+    padding-top:10%;
+  }
+
+  #title
+  {
+    text-align: center;
+
+  }
+  h1
+  {
+    font-size: 2rem;
+  }
+
+}
+
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.footer-heading
+{
+  padding:5% 30% 5% 30%;
+  font-family: 'Montserrat-Black',sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+.footer-button
+{
+  margin: 0 2% 5% 2%;
+}
+
+#footer
+{
+  margin:5% 0;
+  text-align: center;
+  line-height: 1.5;
+}
+.footer-image
+{
+  margin:2% 3%;
+}
